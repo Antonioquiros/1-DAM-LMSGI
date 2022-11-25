@@ -1,0 +1,60 @@
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+td.imagen{
+    text-align: center;
+    background-color: blue;
+}
+caption{
+    font-size: 150%;
+    font-weight: bold;
+}
+td#rojo{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+td.uno{
+    background-color: gray;
+    font-size: 150%;
+    padding: 20px;
+    font-weight: bold;
+}
+td.negro{
+    text-align: center;
+    font-weight: bold;
+}
+ul{
+    color: red;
+    font-weight: bold;
+}
+
+td.tres{
+    text-align: center;
+    background-color: blue;
+    font-weight: bold;
+}
+td#cinco{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ffff00;
+    text-align: center;
+    font-weight: bold;
+}
+td.one{
+    text-align: center;
+    background-color: blue;
+    font-weight: bold;
+}
+td.abajo{
+    background-color: blue;
+    font-weight: bold;
+    text-align: center;
+}
+td.lista{
+    background-color: blue;
+    font-weight: bold;
+}

@@ -1,0 +1,34 @@
+dt{
+    color: aqua;
+}
+li{
+    color: tomato;
+}
+body{
+    background-color:chocolate;
+    font-size: 40px;
+}
+p{
+    color: white;
+}
+button{
+    color: yellow;
+    background-color: springgreen;
+}
+option{
+    color: red;
+}
+p.uno{
+    -moz-column-count:3;
+-webkit-column-count:3;
+column-count:3;
+border-radius: 20px;
+background-color:yellow;
+color: black;
+width:600px;
+padding:10px;
+text-align: center;
+box-shadow: inset 0px 0px 40px red,
+0px 0px 40px yellow;
+
+}

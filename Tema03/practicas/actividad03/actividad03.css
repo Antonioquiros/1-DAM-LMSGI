@@ -1,0 +1,19 @@
+a:link{
+    text-decoration: none;
+    color: gray;
+    font-size: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+a:visited{
+    text-decoration: none;
+    color: gray;
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+a:hover{
+    background-color:darkslategrey;
+}

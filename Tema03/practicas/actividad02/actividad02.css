@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+}
+table, th,td{
+    text-align: center;
+    margin:auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th{
+    text-transform: capitalize;
+}
+th:nth-child(1){
+    background-color: orange;
+ }
+ th.uno{
+    background-color: white;
+
+ }
+ th{
+    text-transform: capitalize;
+ }
+ tr:nth-child(5){
+    color: white;
+    background-color: blue;
+ }
+ tr.fila{
+    font-weight: bold;
+ }
+  tr:nth-child(1)::first-letter{
+    font-size: 20px;
+ }
+ th.r{
+    background-color: blue;
+ }
+
+th::first-letter:nth-child(1){
+    font-weight:bold;
+    font-size: 20px;
+}
+th.rojo{
+    background-color: red;
+}
+th.verde{
+    background-color:green ;
+}
+th:hover:nth-child(5){
+    font-size: 20px;
+}
+input{
+    background-color: pink;
+    
+}
+input:focus{
+    background-color: yellow;
+}
+a:link{
+    color: green;
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+    text-decoration: none;
+}
+
+
+

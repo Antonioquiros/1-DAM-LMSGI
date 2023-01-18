@@ -1,16 +1,21 @@
-
+body{
+    background-image: url(Diseño\ sin\ título.jpg);
+}
 nav{
     
-    font-size: 20px;
+    font-size: 50px;
     background-color: aqua;
     font-weight: bold;
-   column-rule: 2px solid black;
     text-align: center;
     font-family: cursive;
+    padding: 20px;
+    margin: -21px;
 }
 nav:hover{
-    font-size:35px;
+    
     background-color: tomato;
+    transform: scale(1);
+    
 }
 a{
     color:saddlebrown;
@@ -19,29 +24,103 @@ a{
 a:visited{
     color: black;
 }
+a:hover{
+    animation: backwards;
+}
 header#cabecera{
-    background-color: grey;
+    background-color:darkcyan;
     text-align: justify;
     vertical-align: text-top;
     font-family: fantasy;
     color: darkorange;
     -webkit-text-stroke: 1px black;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 5px;
+    
+    
     
 }
 .pulgar{
-    float: right;
+    float:right;
     background-color: grey;
-    width: 380px;
-    height: 180px;
+    margin-right: -5px;
+    margin-top: -5px;
+    height: 198px;
+    width: 400px;
 }
 .one{
     float: left;
+    padding-left: 10px;
 }
 .three{
     float: right;
+    padding-right: 10px;
 }
 .about{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    display: block;
+    margin-left: 550px;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.column{
+    column-count: 2;
+    background-color:darkturquoise;
+    padding: 40px;
+    border-radius: 10px;
+    font-family: cursive;
+    margin-left: 150px;
+    margin-right: 150px;
+    column-rule-style: dashed;
+}
+.mi{
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    text-decoration: underline;
+    background-color: darkturquoise;
+    margin-left: 559px;
+    margin-right: 559px;
+    border-radius: 10px;
+}
+.estudiando{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: 480px;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.hard{
+    text-align: center;
+    font-size: 50px;
+    color:tomato;
+}
+.hard:hover{
+    transform: scale(2);
+
+}
+.biceps{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form{
+    text-align: center;
+    list-style-type:none;
+    color: red;
+    font-weight: bold;
+}
+li{
+    list-style-type:none;
+    }
+.form2{
+    color: green;
+    text-align: justify;
+    margin-left: 500px;
+}
+.form3{
+    text-align: justify;
+    margin-left: 500px;
+    font-size: 23px;
 }

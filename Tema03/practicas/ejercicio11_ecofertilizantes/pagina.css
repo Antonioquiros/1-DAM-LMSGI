@@ -1,0 +1,60 @@
+header{
+    background-image: url(fotoOlivos2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h1{
+    text-shadow: 5px 5px 5px #a2792f;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #a2c11c;
+}
+.andalucia{
+    width: 50px;
+    height: 50px;
+}
+.europa{
+    width: 50px;
+    height: 50px;
+}
+button{
+    font-weight: bolder;
+    background: linear-gradient(#a2792f,#a2c11c);
+    color: antiquewhite;
+    font-style: oblique;
+}
+button:hover{
+    cursor: pointer;
+}
+p.texto{
+    background: linear-gradient(#a2792f,#a2c11c);
+    color: antiquewhite;
+    border-radius: 2%;
+    font-style: oblique;
+    margin-left: 3%;
+    margin-right: 40%;
+    text-align: justify;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    padding: 2%;
+}
+section{
+    background-image: url(fotoOlivos3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tractor{
+    width: 200px;
+    height: 200px;
+    margin-left: 70%;
+    border-radius: 15%;
+}
+footer{
+    background-color: black;
+}
+.abajo{
+    color: aliceblue;
+    text-align: center;
+}

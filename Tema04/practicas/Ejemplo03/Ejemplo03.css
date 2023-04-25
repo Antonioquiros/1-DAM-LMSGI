@@ -1,0 +1,22 @@
+.container{
+    background-color: lightgrey;
+    border: 1px solid black;
+    display:flex;
+    justify-content: center;
+    
+}
+#primera{
+    background-color: lightskyblue;
+
+}
+#segunda{
+    background-color: lightsalmon;
+    height: 15%;
+}
+#tercera{
+    background-color: lightgreen;
+}
+#cuarta{
+    background-color: chocolate;
+   
+}

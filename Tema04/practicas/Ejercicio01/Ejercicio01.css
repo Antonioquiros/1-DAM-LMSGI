@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    background-color: blue;
+    font-size: 120%;
+    color: aliceblue;
+    padding-bottom: 3%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    padding-left: 20%;
+}
+a{
+    padding: 3%;
+    margin-top: 2%;
+    color: aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+.uno{
+    padding: 5%;
+}
+.liga{
+   rotate: 30deg;
+}
+.champions{
+    rotate: 120deg;
+}
+.europa{
+    rotate: -45deg;
+}
+.españa{
+    rotate: -140deg;
+}
+.dos{
+    padding: 20%;
+    position: relative;
+}
+.doss{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    width: 700px;
+}
+.tres{
+    padding: 20%;
+}
+.cuatro{
+    padding: 20%;
+}
+.cinco{
+    padding: 20%;
+}
+.img2{
+    width: 700px;
+}

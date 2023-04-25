@@ -1,0 +1,157 @@
+header{
+    background-color: #b30800;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center; 
+    grid-gap: 10px; 
+    padding-left: 15%;
+    margin-top: -15px;
+    font-size: 150%;
+  }
+.menu{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 10%;
+  }
+.uno{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;  
+    font-size: 115%;
+    padding-top: 3%;
+    color: white;
+}
+.logo{
+    width: 60px;
+    height: 40px;
+    border-radius: 10%;
+    padding: 2%;
+}
+.cuadro{
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+}
+
+.dos{
+    text-align: center;
+    padding-top: 4%;
+    font-size: 140%;
+    padding-bottom: 5%;
+    color: white;
+}
+button{
+    padding: 1%;
+    color: white;
+    background-color: #b30800;
+    border-color: white;
+    border-radius: 5%;
+}
+button:hover{
+    cursor: pointer;
+}
+.tres{
+    text-align: center;
+    padding-top: 20%;
+    color: #b30800;
+    font-size: 125%;
+}
+.grizi{
+    width: 700px;
+    height: 500px;
+}
+.nosotros{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.cuatro{
+    padding-top: 20%;
+    text-align: center;
+    font-size: 125%;
+    color: #b30800;
+}
+.embajadores{
+    width: 200px;
+    height: 150px;
+}
+.cuatro2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 3%;
+}
+.jugadores{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.embajador{
+    color: #b30800;
+}
+.cinco{
+    text-align: center;
+    padding-top: 20%;
+    color: #b30800;
+    font-size: 125%;
+}
+.accionistas{
+    width: 200px;
+    height: 150px;
+}
+.accion{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.cinco2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 3%;
+}
+.seis{
+    text-align: center;
+    color: #b30800;
+    font-size: 125%;
+    padding-top: 20%;
+    padding-bottom: 5%;
+}
+footer{
+    background-color: #b30800;
+    color: white;
+    font-size: 75%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.iconos{
+    font-size: 140%;
+    padding-top: 4%;
+}
+.down{
+    color: white;
+}
+.seis1{
+    border-style: ridge;
+    border-width: 3px;
+    border-color: #b30800;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+section{
+    padding-bottom: 2%;
+}
+html {
+    scroll-behavior: smooth;
+    transition: scroll-behavior 0.5s ease;
+}
+.memphis{
+    padding-right: 2%;
+    padding-left: 1%;
+}
